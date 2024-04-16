@@ -9,6 +9,10 @@ Universidad Internacional de Valencia*
 Prof: Dr. Horacio Kuna
 Dictado: OCT23-24
 
+Inicio de la Actividad Prática I: 12/marzo/2024
+Alumna: Carolina Vásquez Barba
+
+
 ## Descripción del contenido
 
 Carpetas:
