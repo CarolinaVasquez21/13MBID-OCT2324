@@ -15,6 +15,7 @@ Inicio de la Actividad Prática I: 12/marzo/2024
 
 Alumna: Carolina Vásquez Barba
 
+**Repositorio de desarrollo de la práctica de la asignatura**
 
 ## Descripción del contenido
 
