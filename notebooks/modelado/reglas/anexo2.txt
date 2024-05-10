@@ -1,0 +1,637 @@
+Cluster 1 Association Rules:
+Rule 1:
+  Antecedent: situacion_vivienda_ALQUILER
+  Consequent: importe_solicitado_NA
+  Support: 0.6045
+  Confidence: 1.0
+  Lift: 1.0
+
+Rule 2:
+  Antecedent: estado_cliente_ACTIVO
+  Consequent: falta_pago_N
+  Support: 0.7871
+  Confidence: 0.9139
+  Lift: 1.0948
+
+Rule 3:
+  Antecedent: falta_pago_N
+  Consequent: estado_cliente_ACTIVO
+  Support: 0.7871
+  Confidence: 0.9429
+  Lift: 1.0948
+
+Rule 4:
+  Antecedent: falta_pago_N
+  Consequent: importe_solicitado_NA
+  Support: 0.8347
+  Confidence: 1.0
+  Lift: 1.0
+
+Rule 5:
+  Antecedent: estado_cliente_ACTIVO
+  Consequent: importe_solicitado_NA
+  Support: 0.8612
+  Confidence: 1.0
+  Lift: 1.0
+
+Rule 6:
+  Antecedent: genero_F
+  Consequent: importe_solicitado_NA
+  Support: 0.5159
+  Confidence: 1.0
+  Lift: 1.0
+
+Rule 7:
+  Antecedent: estado_credito_P
+  Consequent: importe_solicitado_NA
+  Support: 0.7528
+  Confidence: 1.0
+  Lift: 1.0
+
+Rule 8:
+  Antecedent: gastos_ult_12m_2k_a_4k
+  Consequent: importe_solicitado_NA
+  Support: 0.5109
+  Confidence: 1.0
+  Lift: 1.0
+
+Rule 9:
+  Antecedent: antiguedad_cliente_2y_a_4y
+  Consequent: importe_solicitado_NA
+  Support: 0.8033
+  Confidence: 1.0
+  Lift: 1.0
+
+Rule 10:
+  Antecedent: tasa_interes_7p_a_15p
+  Consequent: importe_solicitado_NA
+  Support: 0.7684
+  Confidence: 1.0
+  Lift: 1.0
+
+Rule 11:
+  Antecedent: pct_ingreso_hasta_20
+  Consequent: importe_solicitado_NA
+  Support: 0.6462
+  Confidence: 1.0
+  Lift: 1.0
+
+Rule 12:
+  Antecedent: edad_menor_25
+  Consequent: importe_solicitado_NA
+  Support: 0.7108
+  Confidence: 1.0
+  Lift: 1.0
+
+Rule 13:
+  Antecedent: situacion_vivienda_ALQUILER, estado_cliente_ACTIVO
+  Consequent: importe_solicitado_NA
+  Support: 0.5113
+  Confidence: 1.0
+  Lift: 1.0
+
+Rule 14:
+  Antecedent: estado_credito_P, estado_cliente_ACTIVO
+  Consequent: falta_pago_N
+  Support: 0.6201
+  Confidence: 0.939
+  Lift: 1.1249
+
+Rule 15:
+  Antecedent: estado_credito_P, falta_pago_N
+  Consequent: estado_cliente_ACTIVO
+  Support: 0.6201
+  Confidence: 0.9441
+  Lift: 1.0962
+
+Rule 16:
+  Antecedent: estado_cliente_ACTIVO, antiguedad_cliente_2y_a_4y
+  Consequent: falta_pago_N
+  Support: 0.6412
+  Confidence: 0.9228
+  Lift: 1.1054
+
+Rule 17:
+  Antecedent: falta_pago_N, antiguedad_cliente_2y_a_4y
+  Consequent: estado_cliente_ACTIVO
+  Support: 0.6412
+  Confidence: 0.9458
+  Lift: 1.0982
+
+Rule 18:
+  Antecedent: estado_cliente_ACTIVO, tasa_interes_7p_a_15p
+  Consequent: falta_pago_N
+  Support: 0.6186
+  Confidence: 0.9207
+  Lift: 1.1029
+
+Rule 19:
+  Antecedent: tasa_interes_7p_a_15p, falta_pago_N
+  Consequent: estado_cliente_ACTIVO
+  Support: 0.6186
+  Confidence: 0.9445
+  Lift: 1.0967
+
+Rule 20:
+  Antecedent: estado_cliente_ACTIVO, pct_ingreso_hasta_20
+  Consequent: falta_pago_N
+  Support: 0.5187
+  Confidence: 0.928
+  Lift: 1.1117
+
+Rule 21:
+  Antecedent: falta_pago_N, pct_ingreso_hasta_20
+  Consequent: estado_cliente_ACTIVO
+  Support: 0.5187
+  Confidence: 0.9459
+  Lift: 1.0983
+
+Rule 22:
+  Antecedent: importe_solicitado_NA, estado_cliente_ACTIVO
+  Consequent: falta_pago_N
+  Support: 0.7871
+  Confidence: 0.9139
+  Lift: 1.0948
+
+Rule 23:
+  Antecedent: importe_solicitado_NA, falta_pago_N
+  Consequent: estado_cliente_ACTIVO
+  Support: 0.7871
+  Confidence: 0.9429
+  Lift: 1.0948
+
+Rule 24:
+  Antecedent: estado_cliente_ACTIVO, falta_pago_N
+  Consequent: importe_solicitado_NA
+  Support: 0.7871
+  Confidence: 1.0
+  Lift: 1.0
+
+Rule 25:
+  Antecedent: estado_cliente_ACTIVO
+  Consequent: importe_solicitado_NA, falta_pago_N
+  Support: 0.7871
+  Confidence: 0.9139
+  Lift: 1.0948
+
+Rule 26:
+  Antecedent: falta_pago_N
+  Consequent: importe_solicitado_NA, estado_cliente_ACTIVO
+  Support: 0.7871
+  Confidence: 0.9429
+  Lift: 1.0948
+
+Rule 27:
+  Antecedent: estado_cliente_ACTIVO, edad_menor_25
+  Consequent: falta_pago_N
+  Support: 0.5565
+  Confidence: 0.9073
+  Lift: 1.0869
+
+Rule 28:
+  Antecedent: edad_menor_25, falta_pago_N
+  Consequent: estado_cliente_ACTIVO
+  Support: 0.5565
+  Confidence: 0.946
+  Lift: 1.0984
+
+Rule 29:
+  Antecedent: estado_credito_P, falta_pago_N
+  Consequent: importe_solicitado_NA
+  Support: 0.6568
+  Confidence: 1.0
+  Lift: 1.0
+
+Rule 30:
+  Antecedent: falta_pago_N, antiguedad_cliente_2y_a_4y
+  Consequent: importe_solicitado_NA
+  Support: 0.678
+  Confidence: 1.0
+  Lift: 1.0
+
+Rule 31:
+  Antecedent: tasa_interes_7p_a_15p, falta_pago_N
+  Consequent: importe_solicitado_NA
+  Support: 0.655
+  Confidence: 1.0
+  Lift: 1.0
+
+Rule 32:
+  Antecedent: falta_pago_N, pct_ingreso_hasta_20
+  Consequent: importe_solicitado_NA
+  Support: 0.5484
+  Confidence: 1.0
+  Lift: 1.0
+
+Rule 33:
+  Antecedent: edad_menor_25, falta_pago_N
+  Consequent: importe_solicitado_NA
+  Support: 0.5883
+  Confidence: 1.0
+  Lift: 1.0
+
+Rule 34:
+  Antecedent: estado_credito_P, estado_cliente_ACTIVO
+  Consequent: importe_solicitado_NA
+  Support: 0.6603
+  Confidence: 1.0
+  Lift: 1.0
+
+Rule 35:
+  Antecedent: estado_cliente_ACTIVO, antiguedad_cliente_2y_a_4y
+  Consequent: importe_solicitado_NA
+  Support: 0.6949
+  Confidence: 1.0
+  Lift: 1.0
+
+Rule 36:
+  Antecedent: estado_cliente_ACTIVO, tasa_interes_7p_a_15p
+  Consequent: importe_solicitado_NA
+  Support: 0.672
+  Confidence: 1.0
+  Lift: 1.0
+
+Rule 37:
+  Antecedent: estado_cliente_ACTIVO, pct_ingreso_hasta_20
+  Consequent: importe_solicitado_NA
+  Support: 0.559
+  Confidence: 1.0
+  Lift: 1.0
+
+Rule 38:
+  Antecedent: estado_cliente_ACTIVO, edad_menor_25
+  Consequent: importe_solicitado_NA
+  Support: 0.6133
+  Confidence: 1.0
+  Lift: 1.0
+
+Rule 39:
+  Antecedent: estado_credito_P, antiguedad_cliente_2y_a_4y
+  Consequent: importe_solicitado_NA
+  Support: 0.6119
+  Confidence: 1.0
+  Lift: 1.0
+
+Rule 40:
+  Antecedent: estado_credito_P, tasa_interes_7p_a_15p
+  Consequent: importe_solicitado_NA
+  Support: 0.6042
+  Confidence: 1.0
+  Lift: 1.0
+
+Rule 41:
+  Antecedent: estado_credito_P, pct_ingreso_hasta_20
+  Consequent: importe_solicitado_NA
+  Support: 0.5466
+  Confidence: 1.0
+  Lift: 1.0
+
+Rule 42:
+  Antecedent: estado_credito_P, edad_menor_25
+  Consequent: importe_solicitado_NA
+  Support: 0.5346
+  Confidence: 1.0
+  Lift: 1.0
+
+Rule 43:
+  Antecedent: tasa_interes_7p_a_15p, antiguedad_cliente_2y_a_4y
+  Consequent: importe_solicitado_NA
+  Support: 0.6162
+  Confidence: 1.0
+  Lift: 1.0
+
+Rule 44:
+  Antecedent: antiguedad_cliente_2y_a_4y, pct_ingreso_hasta_20
+  Consequent: importe_solicitado_NA
+  Support: 0.5261
+  Confidence: 1.0
+  Lift: 1.0
+
+Rule 45:
+  Antecedent: edad_menor_25, antiguedad_cliente_2y_a_4y
+  Consequent: importe_solicitado_NA
+  Support: 0.571
+  Confidence: 1.0
+  Lift: 1.0
+
+Rule 46:
+  Antecedent: edad_menor_25, tasa_interes_7p_a_15p
+  Consequent: importe_solicitado_NA
+  Support: 0.5445
+  Confidence: 1.0
+  Lift: 1.0
+
+Rule 47:
+  Antecedent: estado_credito_P, estado_cliente_ACTIVO, antiguedad_cliente_2y_a_4y
+  Consequent: falta_pago_N
+  Support: 0.5106
+  Confidence: 0.947
+  Lift: 1.1344
+
+Rule 48:
+  Antecedent: estado_credito_P, falta_pago_N, antiguedad_cliente_2y_a_4y
+  Consequent: estado_cliente_ACTIVO
+  Support: 0.5106
+  Confidence: 0.9463
+  Lift: 1.0988
+
+Rule 49:
+  Antecedent: estado_credito_P, importe_solicitado_NA, estado_cliente_ACTIVO
+  Consequent: falta_pago_N
+  Support: 0.6201
+  Confidence: 0.939
+  Lift: 1.1249
+
+Rule 50:
+  Antecedent: estado_credito_P, importe_solicitado_NA, falta_pago_N
+  Consequent: estado_cliente_ACTIVO
+  Support: 0.6201
+  Confidence: 0.9441
+  Lift: 1.0962
+
+Rule 51:
+  Antecedent: estado_credito_P, estado_cliente_ACTIVO, falta_pago_N
+  Consequent: importe_solicitado_NA
+  Support: 0.6201
+  Confidence: 1.0
+  Lift: 1.0
+
+Rule 52:
+  Antecedent: estado_credito_P, estado_cliente_ACTIVO
+  Consequent: importe_solicitado_NA, falta_pago_N
+  Support: 0.6201
+  Confidence: 0.939
+  Lift: 1.1249
+
+Rule 53:
+  Antecedent: estado_credito_P, falta_pago_N
+  Consequent: importe_solicitado_NA, estado_cliente_ACTIVO
+  Support: 0.6201
+  Confidence: 0.9441
+  Lift: 1.0962
+
+Rule 54:
+  Antecedent: estado_cliente_ACTIVO, tasa_interes_7p_a_15p, antiguedad_cliente_2y_a_4y
+  Consequent: falta_pago_N
+  Support: 0.5018
+  Confidence: 0.9288
+  Lift: 1.1126
+
+Rule 55:
+  Antecedent: tasa_interes_7p_a_15p, falta_pago_N, antiguedad_cliente_2y_a_4y
+  Consequent: estado_cliente_ACTIVO
+  Support: 0.5018
+  Confidence: 0.9467
+  Lift: 1.0992
+
+Rule 56:
+  Antecedent: importe_solicitado_NA, estado_cliente_ACTIVO, antiguedad_cliente_2y_a_4y
+  Consequent: falta_pago_N
+  Support: 0.6412
+  Confidence: 0.9228
+  Lift: 1.1054
+
+Rule 57:
+  Antecedent: importe_solicitado_NA, falta_pago_N, antiguedad_cliente_2y_a_4y
+  Consequent: estado_cliente_ACTIVO
+  Support: 0.6412
+  Confidence: 0.9458
+  Lift: 1.0982
+
+Rule 58:
+  Antecedent: estado_cliente_ACTIVO, falta_pago_N, antiguedad_cliente_2y_a_4y
+  Consequent: importe_solicitado_NA
+  Support: 0.6412
+  Confidence: 1.0
+  Lift: 1.0
+
+Rule 59:
+  Antecedent: estado_cliente_ACTIVO, antiguedad_cliente_2y_a_4y
+  Consequent: importe_solicitado_NA, falta_pago_N
+  Support: 0.6412
+  Confidence: 0.9228
+  Lift: 1.1054
+
+Rule 60:
+  Antecedent: falta_pago_N, antiguedad_cliente_2y_a_4y
+  Consequent: importe_solicitado_NA, estado_cliente_ACTIVO
+  Support: 0.6412
+  Confidence: 0.9458
+  Lift: 1.0982
+
+Rule 61:
+  Antecedent: importe_solicitado_NA, estado_cliente_ACTIVO, tasa_interes_7p_a_15p
+  Consequent: falta_pago_N
+  Support: 0.6186
+  Confidence: 0.9207
+  Lift: 1.1029
+
+Rule 62:
+  Antecedent: importe_solicitado_NA, tasa_interes_7p_a_15p, falta_pago_N
+  Consequent: estado_cliente_ACTIVO
+  Support: 0.6186
+  Confidence: 0.9445
+  Lift: 1.0967
+
+Rule 63:
+  Antecedent: estado_cliente_ACTIVO, tasa_interes_7p_a_15p, falta_pago_N
+  Consequent: importe_solicitado_NA
+  Support: 0.6186
+  Confidence: 1.0
+  Lift: 1.0
+
+Rule 64:
+  Antecedent: estado_cliente_ACTIVO, tasa_interes_7p_a_15p
+  Consequent: importe_solicitado_NA, falta_pago_N
+  Support: 0.6186
+  Confidence: 0.9207
+  Lift: 1.1029
+
+Rule 65:
+  Antecedent: tasa_interes_7p_a_15p, falta_pago_N
+  Consequent: importe_solicitado_NA, estado_cliente_ACTIVO
+  Support: 0.6186
+  Confidence: 0.9445
+  Lift: 1.0967
+
+Rule 66:
+  Antecedent: importe_solicitado_NA, estado_cliente_ACTIVO, pct_ingreso_hasta_20
+  Consequent: falta_pago_N
+  Support: 0.5187
+  Confidence: 0.928
+  Lift: 1.1117
+
+Rule 67:
+  Antecedent: importe_solicitado_NA, falta_pago_N, pct_ingreso_hasta_20
+  Consequent: estado_cliente_ACTIVO
+  Support: 0.5187
+  Confidence: 0.9459
+  Lift: 1.0983
+
+Rule 68:
+  Antecedent: estado_cliente_ACTIVO, falta_pago_N, pct_ingreso_hasta_20
+  Consequent: importe_solicitado_NA
+  Support: 0.5187
+  Confidence: 1.0
+  Lift: 1.0
+
+Rule 69:
+  Antecedent: estado_cliente_ACTIVO, pct_ingreso_hasta_20
+  Consequent: importe_solicitado_NA, falta_pago_N
+  Support: 0.5187
+  Confidence: 0.928
+  Lift: 1.1117
+
+Rule 70:
+  Antecedent: falta_pago_N, pct_ingreso_hasta_20
+  Consequent: importe_solicitado_NA, estado_cliente_ACTIVO
+  Support: 0.5187
+  Confidence: 0.9459
+  Lift: 1.0983
+
+Rule 71:
+  Antecedent: importe_solicitado_NA, estado_cliente_ACTIVO, edad_menor_25
+  Consequent: falta_pago_N
+  Support: 0.5565
+  Confidence: 0.9073
+  Lift: 1.0869
+
+Rule 72:
+  Antecedent: importe_solicitado_NA, edad_menor_25, falta_pago_N
+  Consequent: estado_cliente_ACTIVO
+  Support: 0.5565
+  Confidence: 0.946
+  Lift: 1.0984
+
+Rule 73:
+  Antecedent: estado_cliente_ACTIVO, falta_pago_N, edad_menor_25
+  Consequent: importe_solicitado_NA
+  Support: 0.5565
+  Confidence: 1.0
+  Lift: 1.0
+
+Rule 74:
+  Antecedent: estado_cliente_ACTIVO, edad_menor_25
+  Consequent: importe_solicitado_NA, falta_pago_N
+  Support: 0.5565
+  Confidence: 0.9073
+  Lift: 1.0869
+
+Rule 75:
+  Antecedent: edad_menor_25, falta_pago_N
+  Consequent: importe_solicitado_NA, estado_cliente_ACTIVO
+  Support: 0.5565
+  Confidence: 0.946
+  Lift: 1.0984
+
+Rule 76:
+  Antecedent: estado_credito_P, falta_pago_N, antiguedad_cliente_2y_a_4y
+  Consequent: importe_solicitado_NA
+  Support: 0.5395
+  Confidence: 1.0
+  Lift: 1.0
+
+Rule 77:
+  Antecedent: estado_credito_P, tasa_interes_7p_a_15p, falta_pago_N
+  Consequent: importe_solicitado_NA
+  Support: 0.5251
+  Confidence: 1.0
+  Lift: 1.0
+
+Rule 78:
+  Antecedent: tasa_interes_7p_a_15p, falta_pago_N, antiguedad_cliente_2y_a_4y
+  Consequent: importe_solicitado_NA
+  Support: 0.53
+  Confidence: 1.0
+  Lift: 1.0
+
+Rule 79:
+  Antecedent: estado_credito_P, estado_cliente_ACTIVO, antiguedad_cliente_2y_a_4y
+  Consequent: importe_solicitado_NA
+  Support: 0.5392
+  Confidence: 1.0
+  Lift: 1.0
+
+Rule 80:
+  Antecedent: estado_credito_P, estado_cliente_ACTIVO, tasa_interes_7p_a_15p
+  Consequent: importe_solicitado_NA
+  Support: 0.5297
+  Confidence: 1.0
+  Lift: 1.0
+
+Rule 81:
+  Antecedent: estado_cliente_ACTIVO, tasa_interes_7p_a_15p, antiguedad_cliente_2y_a_4y
+  Consequent: importe_solicitado_NA
+  Support: 0.5403
+  Confidence: 1.0
+  Lift: 1.0
+
+Rule 82:
+  Antecedent: estado_credito_P, importe_solicitado_NA, estado_cliente_ACTIVO, antiguedad_cliente_2y_a_4y
+  Consequent: falta_pago_N
+  Support: 0.5106
+  Confidence: 0.947
+  Lift: 1.1344
+
+Rule 83:
+  Antecedent: estado_credito_P, importe_solicitado_NA, falta_pago_N, antiguedad_cliente_2y_a_4y
+  Consequent: estado_cliente_ACTIVO
+  Support: 0.5106
+  Confidence: 0.9463
+  Lift: 1.0988
+
+Rule 84:
+  Antecedent: estado_credito_P, estado_cliente_ACTIVO, falta_pago_N, antiguedad_cliente_2y_a_4y
+  Consequent: importe_solicitado_NA
+  Support: 0.5106
+  Confidence: 1.0
+  Lift: 1.0
+
+Rule 85:
+  Antecedent: estado_credito_P, estado_cliente_ACTIVO, antiguedad_cliente_2y_a_4y
+  Consequent: importe_solicitado_NA, falta_pago_N
+  Support: 0.5106
+  Confidence: 0.947
+  Lift: 1.1344
+
+Rule 86:
+  Antecedent: estado_credito_P, falta_pago_N, antiguedad_cliente_2y_a_4y
+  Consequent: importe_solicitado_NA, estado_cliente_ACTIVO
+  Support: 0.5106
+  Confidence: 0.9463
+  Lift: 1.0988
+
+Rule 87:
+  Antecedent: importe_solicitado_NA, estado_cliente_ACTIVO, tasa_interes_7p_a_15p, antiguedad_cliente_2y_a_4y
+  Consequent: falta_pago_N
+  Support: 0.5018
+  Confidence: 0.9288
+  Lift: 1.1126
+
+Rule 88:
+  Antecedent: importe_solicitado_NA, tasa_interes_7p_a_15p, falta_pago_N, antiguedad_cliente_2y_a_4y
+  Consequent: estado_cliente_ACTIVO
+  Support: 0.5018
+  Confidence: 0.9467
+  Lift: 1.0992
+
+Rule 89:
+  Antecedent: estado_cliente_ACTIVO, tasa_interes_7p_a_15p, falta_pago_N, antiguedad_cliente_2y_a_4y
+  Consequent: importe_solicitado_NA
+  Support: 0.5018
+  Confidence: 1.0
+  Lift: 1.0
+
+Rule 90:
+  Antecedent: estado_cliente_ACTIVO, tasa_interes_7p_a_15p, antiguedad_cliente_2y_a_4y
+  Consequent: importe_solicitado_NA, falta_pago_N
+  Support: 0.5018
+  Confidence: 0.9288
+  Lift: 1.1126
+
+Rule 91:
+  Antecedent: tasa_interes_7p_a_15p, falta_pago_N, antiguedad_cliente_2y_a_4y
+  Consequent: importe_solicitado_NA, estado_cliente_ACTIVO
+  Support: 0.5018
+  Confidence: 0.9467
+  Lift: 1.0992
